@@ -5,7 +5,14 @@ https://classroom.github.com/a/ZpdKtloc
 **1. n sayda elementdən ibarət olan bir ölçülü matrisin ən böyük elementini tapan proqram yazın.**
 
 ```python
+
 matrix = [2, 45, 2, 12, 34]
+
+minimum = matrix[0]
+
+for i in matrix:
+    if i < minimum:
+        minimum = i
 
 # Sizin kodunuz .....
 
